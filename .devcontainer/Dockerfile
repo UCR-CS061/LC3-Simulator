@@ -10,7 +10,6 @@ COPY menu /root/.fluxbox/menu
 RUN wget https://github.com/hneemann/Digital/releases/latest/download/Digital.zip
 RUN unzip Digital.zip
 RUN mv Digital /usr/local/Digital
-COPY Digital.sh /usr/local/Digital
 
 WORKDIR /LC3_realized
 RUN wget https://github.com/ucrdrk/LC3_realized/releases/download/v1.0.0/LC3_realized-1.0.0.zip
