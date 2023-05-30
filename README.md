@@ -91,7 +91,7 @@ of thes systems.
 
 1. [Windows](https://bleyer.org/icarus/)
 2. [Mac OS X](https://ports.macports.org/port/iverilog/)
-3. [Linux]https://iverilog.fandom.com/wiki/Installation_Guide)
+3. [Linux](https://iverilog.fandom.com/wiki/Installation_Guide)
 
 ## Running the Simulator
 
