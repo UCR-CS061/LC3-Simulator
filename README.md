@@ -62,6 +62,19 @@ and select Digital. This will open the logic design program, Digital. In this pr
 navigate to th directory /LC3_realized and select lc3.dig and then press "Open". You are now in the LC3 simulator. See the section
 below called "Running the Simulator"
 
+#### Some useful settings for NoVNC
+
+The NoVNC web app has some annoying behaviors. Two of these behaviors is poor window sizing and constant disconnections. To lessen
+the impact of thse behvaviors, you can set a couple of setting. In the middle of the screen on the left hand side of the NoVNC tab
+there is a blue arrow pointing to the right. Click on this arrow and then the settings gear. On the dialog that opens, select 
+"Remote Resizing" under "Scaling Mode" and put a check mark next to "Automatic Reconnect" under "Advanced". The settings should
+look like the following when you're done:
+
+![](./assets/novnc-settings.png)
+
+Once your done, select the blue arrow now pointing to the left to close the settings dialog. These setting should make the 
+behaviors a little less annoying.
+
 ### Installing Digital on your local computer
 
 Running the simulator in a Codespace is not optimal. The othe option is to run Digital on your local computer. To do this, you will 
