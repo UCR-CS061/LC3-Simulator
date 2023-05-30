@@ -93,13 +93,43 @@ of thes systems.
 2. [Mac OS X](https://ports.macports.org/port/iverilog/)
 3. [Linux](https://iverilog.fandom.com/wiki/Installation_Guide)
 
+#### Downloading the LC3 Simulator files for Digital
+
+One last thing you need to do, is download the .dig files for the LC3 Simulator. These files are available through GitHub. You can 
+clone the respository at the URL [https://github.com/ucrdrk/LC3_realized](https://github.com/ucrdrk/LC3_realized).
+
 ## Running the Simulator
+
+Now that you have Digital installed and all the supporting software, you can now run the simulator.
+
+First open Digital. If everything is working, simply navigate to Digital.jar and double click it. Next, you will open the LC3 simulator.
+In Digital, click File -> Open and then navigate to where you cloned LC3_Realized. In that directory, select lc3.dig. You should see 
+something like the following:
 
 ![](./assets/lc3-sim-digital.png)
 
-### Running "Hello, World!"
+To run the program, first click the run button at the top of Digital, and then the fast-forward play button, which is right next to
+the play button. This starts the clock running on its own until the program is done. The default program is "Hello, World". When it's 
+finished running you should see the following:
+
+![](./assets/hello-world.png)
 
 ### Running other examples
 
+There are 4 other programs you can run, Programming Assignment 1 (assn1), Programming Assignment 2 (assn2), Programming Assignment 3 (assn3),
+Programming Assignment 4 (assn4), and Programming Assignment 5 (assn5). To load these programs, in Digital, click on Edit -> Circuit
+Specific Settings and click on the Advanced Tab. Under "Program File" on the Advanced tab, click on the button with 3 dots next to the file
+name. Now in the same directory as the LC3_Realized repository pick on of assn1.hex, assn2.hex, assn3.hex, assn4.hex or assn5.hex. Next
+click on the Play button as before and run the program.
+
+### Stepping through the Instruction Cycle
+
+Sometimes it is more interesting to control the clock manually and see all the phases of the execution cycle. To do this start by clicking the 
+play button as before, but before you click the fast-forward play, make sure the Enabled input is set to one. This input is just below Breakpoint
+in the Debug/Controls box. Once it's set to one, now you can press the fast-forward play. This will then break at address x3000 and you
+can manually control the clock by clicking on the Clk module, also in the Debug/Controls box. You can continue running at any time by clicking
+the fast-forward play button again.
 
 ### Getting your own LC-3 assembly running
+
+Directions for running other programs besides those provided is coming soon.
