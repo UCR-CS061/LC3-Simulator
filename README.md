@@ -95,6 +95,8 @@ of thes systems.
 
 ## Running the Simulator
 
+![](./assets/lc3-sim-digital.png)
+
 ### Running "Hello, World!"
 
 ### Running other examples
