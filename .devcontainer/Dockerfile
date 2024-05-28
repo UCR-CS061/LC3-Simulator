@@ -14,6 +14,6 @@ COPY Digital.sh /usr/local/Digital
 RUN chmod a+x /usr/local/Digital/Digital.sh
 
 WORKDIR /LC3_realized
-RUN wget https://github.com/ucrdrk/LC3_realized/releases/download/v1.0.0/LC3_realized-1.0.0.zip
-RUN unzip LC3_realized-1.0.0.zip
+RUN https://github.com/ucrdrk/LC3_realized/releases/download/v1.0.1/LC3_realized-1.0.1.zip
+RUN unzip LC3_realized-1.0.1.zip
 
